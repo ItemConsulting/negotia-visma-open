@@ -1,0 +1,31 @@
+
+Personnr: 01018212345
+Etternavn: Mitt Etternavn
+Fornavn: Mitt Fornavn
+c/o adresse: co adresse
+Postadresse: adresse
+   adress2
+Postnr/sted: 9000
+ POSTSTED
+Mobiltelefon: 12341234
+E-post adresse: tom@item.no
+NB! DU VIL MOTTA INNMELDINGSBEKREFTELSE OG ANNEN INFORMASJON PÅ DENNE ADRESSEN 
+Arbeidssted 
+Bedriftsnummer:
+(underavdeling) 123456789
+Navn: Arbeidssted
+Adresse: Arbeidsadr.
+   Arbeidsadr. 2
+Postnr/sted: 9000
+ POSTSTED
+Arbeidsforhold 
+Ansattnr: 1234
+Stilling: Stilling
+Stillingsprosent: 100
+Betalingsmåte 
+Giro/ lønnstrekk: Lønnstrekk
+Kommentarer 
+ Min kommentar
+Informasjon om verver 
+Vervet av: Verver
+Ververs fødselsdato: 

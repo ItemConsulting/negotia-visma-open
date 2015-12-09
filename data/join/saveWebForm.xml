@@ -1,0 +1,20 @@
+<CallVismaResponse xmlns="http://schemas.datacontract.org/2004/07/ABCDataApp.Domain.VCRMService.Message.Kurs"
+                   xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <_responseCode i:nil="true"
+                   xmlns="http://schemas.datacontract.org/2004/07/ABCDataApp.Domain.Core.VCRMServiceMessage"
+                   xmlns:a="http://abcdata.no/vcrmservice/DTO"/>
+    <Result>
+        <SaveWebForm xmlns="">
+            <WebForm>
+                <WEBFormNo>0</WEBFormNo>
+                <WebFormFields>
+                    <WEBFormFieldNo>0</WEBFormFieldNo>
+                    <WEBFormNo>0</WEBFormNo>
+                    <WEBCaption>Lagring vellykket</WEBCaption>
+                    <WEBDatatypeName>string</WEBDatatypeName>
+                    <WEBControlTypeName>label</WEBControlTypeName>
+                </WebFormFields>
+            </WebForm>
+        </SaveWebForm>
+    </Result>
+</CallVismaResponse>
