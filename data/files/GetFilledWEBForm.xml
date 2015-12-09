@@ -1,0 +1,303 @@
+<CallVismaResponse xmlns="http://schemas.datacontract.org/2004/07/ABCDataApp.Domain.VCRMService.Message.Kurs" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <_responseCode i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/ABCDataApp.Domain.Core.VCRMServiceMessage" xmlns:a="http://abcdata.no/vcrmservice/DTO"/>
+    <Result>
+        <GetFilledWEBForm xmlns="">
+            <WebForm>
+                <WEBFormNo>33</WEBFormNo>
+                <WEBForm>Liste Aktiviteter</WEBForm>
+                <ErrorEMailadress></ErrorEMailadress>
+                <TemplateNo>0</TemplateNo>
+                <SendMail>false</SendMail>
+                <EMailCC></EMailCC>
+                <EMailBCC></EMailBCC>
+                <WebFormFields>
+                    <WEBFormFieldNo>404</WEBFormFieldNo>
+                    <WEBFormField>Test</WEBFormField>
+                    <WEBFormNo>33</WEBFormNo>
+                    <WEBIndex>0</WEBIndex>
+                    <WEBCaption>Test mot aktiviteter/dokumenter</WEBCaption>
+                    <WEBDatatypeName></WEBDatatypeName>
+                    <WEBLength></WEBLength>
+                    <WEBNoOfLine>0</WEBNoOfLine>
+                    <WEBControlTypeName>h1</WEBControlTypeName>
+                    <WEBSourceName></WEBSourceName>
+                    <WEBSource></WEBSource>
+                    <WEBDefaultvalue></WEBDefaultvalue>
+                    <WEBRequired>false</WEBRequired>
+                    <WEBHidden>false</WEBHidden>
+                    <WEBVisible>true</WEBVisible>
+                    <WEBEnabled>false</WEBEnabled>
+                    <WEBNoLineFeed>false</WEBNoLineFeed>
+                    <WEBMail>false</WEBMail>
+                    <WEBRegExp></WEBRegExp>
+                    <WEBRegExpExeption></WEBRegExpExeption>
+                    <WEBService>false</WEBService>
+                    <WEBTooltip></WEBTooltip>
+                    <WEBMethod></WEBMethod>
+                    <WEBWidth>0</WEBWidth>
+                    <WEBFieldError></WEBFieldError>
+                    <WEBObjectID></WEBObjectID>
+                    <EmailFrom>false</EmailFrom>
+                    <EmailTo>false</EmailTo>
+                    <EmailCC>false</EmailCC>
+                    <EmailBCC>false</EmailBCC>
+                </WebFormFields>
+                <WebFormFields>
+                    <WEBFormFieldNo>398</WEBFormFieldNo>
+                    <WEBFormField>WebFormNo</WEBFormField>
+                    <WEBFormNo>33</WEBFormNo>
+                    <WEBIndex>1</WEBIndex>
+                    <WEBCaption>Webskjema</WEBCaption>
+                    <WEBDatatypeName>long</WEBDatatypeName>
+                    <WEBLength>0</WEBLength>
+                    <WEBNoOfLine>0</WEBNoOfLine>
+                    <WEBControlTypeName>text</WEBControlTypeName>
+                    <WEBSourceName></WEBSourceName>
+                    <WEBSource></WEBSource>
+                    <WEBDefaultvalue>33</WEBDefaultvalue>
+                    <WEBRequired>false</WEBRequired>
+                    <WEBHidden>false</WEBHidden>
+                    <WEBVisible>true</WEBVisible>
+                    <WEBEnabled>false</WEBEnabled>
+                    <WEBNoLineFeed>false</WEBNoLineFeed>
+                    <WEBMail>false</WEBMail>
+                    <WEBRegExp></WEBRegExp>
+                    <WEBRegExpExeption></WEBRegExpExeption>
+                    <WEBService>false</WEBService>
+                    <WEBTooltip></WEBTooltip>
+                    <WEBMethod></WEBMethod>
+                    <WEBWidth>0</WEBWidth>
+                    <WEBFieldError></WEBFieldError>
+                    <WEBObjectID></WEBObjectID>
+                    <EmailFrom>false</EmailFrom>
+                    <EmailTo>false</EmailTo>
+                    <EmailCC>false</EmailCC>
+                    <EmailBCC>false</EmailBCC>
+                </WebFormFields>
+                <WebFormFields>
+                    <WEBFormFieldNo>399</WEBFormFieldNo>
+                    <WEBFormField>CustomerNo</WEBFormField>
+                    <WEBFormNo>33</WEBFormNo>
+                    <WEBIndex>2</WEBIndex>
+                    <WEBCaption>Kundenr</WEBCaption>
+                    <WEBDatatypeName>long</WEBDatatypeName>
+                    <WEBLength></WEBLength>
+                    <WEBNoOfLine>0</WEBNoOfLine>
+                    <WEBControlTypeName>text</WEBControlTypeName>
+                    <WEBSourceName></WEBSourceName>
+                    <WEBSource></WEBSource>
+                    <WEBDefaultvalue>203176</WEBDefaultvalue>
+                    <WEBRequired>true</WEBRequired>
+                    <WEBHidden>false</WEBHidden>
+                    <WEBVisible>true</WEBVisible>
+                    <WEBEnabled>false</WEBEnabled>
+                    <WEBNoLineFeed>false</WEBNoLineFeed>
+                    <WEBMail>false</WEBMail>
+                    <WEBRegExp></WEBRegExp>
+                    <WEBRegExpExeption></WEBRegExpExeption>
+                    <WEBService>true</WEBService>
+                    <WEBTooltip></WEBTooltip>
+                    <WEBMethod></WEBMethod>
+                    <WEBWidth>0</WEBWidth>
+                    <WEBFieldError></WEBFieldError>
+                    <WEBObjectID>15511111</WEBObjectID>
+                    <EmailFrom>false</EmailFrom>
+                    <EmailTo>false</EmailTo>
+                    <EmailCC>false</EmailCC>
+                    <EmailBCC>false</EmailBCC>
+                </WebFormFields>
+                <WebFormFields>
+                    <WEBFormFieldNo>400</WEBFormFieldNo>
+                    <WEBFormField>OrderForm</WEBFormField>
+                    <WEBFormNo>33</WEBFormNo>
+                    <WEBIndex>3</WEBIndex>
+                    <WEBCaption>Bestill liste</WEBCaption>
+                    <WEBDatatypeName></WEBDatatypeName>
+                    <WEBLength></WEBLength>
+                    <WEBNoOfLine>0</WEBNoOfLine>
+                    <WEBControlTypeName>buttonsubmit</WEBControlTypeName>
+                    <WEBSourceName></WEBSourceName>
+                    <WEBSource></WEBSource>
+                    <WEBDefaultvalue></WEBDefaultvalue>
+                    <WEBRequired>false</WEBRequired>
+                    <WEBHidden>false</WEBHidden>
+                    <WEBVisible>true</WEBVisible>
+                    <WEBEnabled>true</WEBEnabled>
+                    <WEBNoLineFeed>false</WEBNoLineFeed>
+                    <WEBMail>false</WEBMail>
+                    <WEBRegExp></WEBRegExp>
+                    <WEBRegExpExeption></WEBRegExpExeption>
+                    <WEBService>false</WEBService>
+                    <WEBTooltip></WEBTooltip>
+                    <WEBMethod></WEBMethod>
+                    <WEBWidth>0</WEBWidth>
+                    <WEBFieldError></WEBFieldError>
+                    <WEBObjectID></WEBObjectID>
+                    <EmailFrom>false</EmailFrom>
+                    <EmailTo>false</EmailTo>
+                    <EmailCC>false</EmailCC>
+                    <EmailBCC>false</EmailBCC>
+                </WebFormFields>
+                <WebFormFields>
+                    <WEBFormFieldNo>401</WEBFormFieldNo>
+                    <WEBFormField>Antall</WEBFormField>
+                    <WEBFormNo>33</WEBFormNo>
+                    <WEBIndex>4</WEBIndex>
+                    <WEBCaption></WEBCaption>
+                    <WEBDatatypeName></WEBDatatypeName>
+                    <WEBLength></WEBLength>
+                    <WEBNoOfLine>0</WEBNoOfLine>
+                    <WEBControlTypeName></WEBControlTypeName>
+                    <WEBSourceName></WEBSourceName>
+                    <WEBSource></WEBSource>
+                    <WEBDefaultvalue></WEBDefaultvalue>
+                    <WEBRequired>false</WEBRequired>
+                    <WEBHidden>false</WEBHidden>
+                    <WEBVisible>false</WEBVisible>
+                    <WEBEnabled>false</WEBEnabled>
+                    <WEBNoLineFeed>false</WEBNoLineFeed>
+                    <WEBMail>false</WEBMail>
+                    <WEBRegExp></WEBRegExp>
+                    <WEBRegExpExeption></WEBRegExpExeption>
+                    <WEBService>false</WEBService>
+                    <WEBTooltip></WEBTooltip>
+                    <WEBMethod></WEBMethod>
+                    <WEBWidth>0</WEBWidth>
+                    <WEBFieldError></WEBFieldError>
+                    <WEBObjectID></WEBObjectID>
+                    <EmailFrom>false</EmailFrom>
+                    <EmailTo>false</EmailTo>
+                    <EmailCC>false</EmailCC>
+                    <EmailBCC>false</EmailBCC>
+                </WebFormFields>
+                <WebFormFields>
+                    <WEBFormFieldNo>402</WEBFormFieldNo>
+                    <WEBFormField>Aktivitetsliste</WEBFormField>
+                    <WEBFormNo>33</WEBFormNo>
+                    <WEBIndex>5</WEBIndex>
+                    <WEBCaption></WEBCaption>
+                    <WEBDatatypeName></WEBDatatypeName>
+                    <WEBLength></WEBLength>
+                    <WEBNoOfLine>0</WEBNoOfLine>
+                    <WEBControlTypeName>list</WEBControlTypeName>
+                    <WEBSourceName>Liste</WEBSourceName>
+                    <WEBSource>SELECT Name AS F1, CONVERT(VARCHAR(10),EventDate,104) AS F2, '&lt;UniqueNo&gt;' + STR(UniqueNo) + '&lt;/UniqueNo&gt;&lt;Name&gt;' + Name + '&lt;/Name&gt;&lt;KeyValues&gt;&lt;FieldID&gt;15511319&lt;/FieldID&gt;&lt;FieldValue&gt;' + STR(UniqueNo) + '&lt;/FieldValue&gt;&lt;/KeyValues&gt;|GetNextFilledWebForm|Last ned' AS AL3 FROM Event WHERE ZUsrShowWEB = 1 AND CustomerNo = %%15511111%%</WEBSource>
+                    <WEBDefaultvalue></WEBDefaultvalue>
+                    <WEBRequired>false</WEBRequired>
+                    <WEBHidden>false</WEBHidden>
+                    <WEBVisible>true</WEBVisible>
+                    <WEBEnabled>true</WEBEnabled>
+                    <WEBNoLineFeed>false</WEBNoLineFeed>
+                    <WEBMail>false</WEBMail>
+                    <WEBRegExp></WEBRegExp>
+                    <WEBRegExpExeption></WEBRegExpExeption>
+                    <WEBService>false</WEBService>
+                    <WEBTooltip>Dokument|Dato|</WEBTooltip>
+                    <WEBMethod></WEBMethod>
+                    <WEBWidth>0</WEBWidth>
+                    <WEBFieldError></WEBFieldError>
+                    <WEBObjectID></WEBObjectID>
+                    <EmailFrom>false</EmailFrom>
+                    <EmailTo>false</EmailTo>
+                    <EmailCC>false</EmailCC>
+                    <EmailBCC>false</EmailBCC>
+                </WebFormFields>
+            </WebForm>
+            <Liste>
+                <F1>Sak 77/12 Hytte- og velferdsutvalget, rapportering</F1>
+                <F2>01.11.2012</F2>
+                <AL3>&lt;UniqueNo&gt;   5025579&lt;/UniqueNo&gt;&lt;Name&gt;Sak 77/12 Hytte- og velferdsutvalget, rapportering&lt;/Name&gt;&lt;KeyValues&gt;&lt;FieldID&gt;15511319&lt;/FieldID&gt;&lt;FieldValue&gt;   5025579&lt;/FieldValue&gt;&lt;/KeyValues&gt;|GetNextFilledWebForm|Last ned</AL3>
+            </Liste>
+            <Liste>
+                <F1>Forbundsstyredokumenter 24. jan. 2014</F1>
+                <F2>16.01.2014</F2>
+                <AL3>&lt;UniqueNo&gt;   5060431&lt;/UniqueNo&gt;&lt;Name&gt;Forbundsstyredokumenter 24. jan. 2014&lt;/Name&gt;&lt;KeyValues&gt;&lt;FieldID&gt;15511319&lt;/FieldID&gt;&lt;FieldValue&gt;   5060431&lt;/FieldValue&gt;&lt;/KeyValues&gt;|GetNextFilledWebForm|Last ned</AL3>
+            </Liste>
+            <Liste>
+                <F1>Reiseregningskjema</F1>
+                <F2>01.01.2014</F2>
+                <AL3>&lt;UniqueNo&gt;   5060468&lt;/UniqueNo&gt;&lt;Name&gt;Reiseregningskjema&lt;/Name&gt;&lt;KeyValues&gt;&lt;FieldID&gt;15511319&lt;/FieldID&gt;&lt;FieldValue&gt;   5060468&lt;/FieldValue&gt;&lt;/KeyValues&gt;|GetNextFilledWebForm|Last ned</AL3>
+            </Liste>
+            <Liste>
+                <F1>Tillitsvalgte Bransje 0101148.xlsx</F1>
+                <F2>03.02.2014</F2>
+                <AL3>&lt;UniqueNo&gt;   5060686&lt;/UniqueNo&gt;&lt;Name&gt;Tillitsvalgte Bransje 0101148.xlsx&lt;/Name&gt;&lt;KeyValues&gt;&lt;FieldID&gt;15511319&lt;/FieldID&gt;&lt;FieldValue&gt;   5060686&lt;/FieldValue&gt;&lt;/KeyValues&gt;|GetNextFilledWebForm|Last ned</AL3>
+            </Liste>
+            <Liste>
+                <F1>Sammenligning av tilbud</F1>
+                <F2>06.03.2014</F2>
+                <AL3>&lt;UniqueNo&gt;   5061596&lt;/UniqueNo&gt;&lt;Name&gt;Sammenligning av tilbud&lt;/Name&gt;&lt;KeyValues&gt;&lt;FieldID&gt;15511319&lt;/FieldID&gt;&lt;FieldValue&gt;   5061596&lt;/FieldValue&gt;&lt;/KeyValues&gt;|GetNextFilledWebForm|Last ned</AL3>
+            </Liste>
+            <Liste>
+                <F1>Forhandlingsutvalg Negotia 2014.docx</F1>
+                <F2>07.03.2014</F2>
+                <AL3>&lt;UniqueNo&gt;   5061600&lt;/UniqueNo&gt;&lt;Name&gt;Forhandlingsutvalg Negotia 2014.docx&lt;/Name&gt;&lt;KeyValues&gt;&lt;FieldID&gt;15511319&lt;/FieldID&gt;&lt;FieldValue&gt;   5061600&lt;/FieldValue&gt;&lt;/KeyValues&gt;|GetNextFilledWebForm|Last ned</AL3>
+            </Liste>
+            <Liste>
+                <F1>Alle medlemmer per 21.06.13.xlsx</F1>
+                <F2>21.03.2014</F2>
+                <AL3>&lt;UniqueNo&gt;   5062029&lt;/UniqueNo&gt;&lt;Name&gt;Alle medlemmer per 21.06.13.xlsx&lt;/Name&gt;&lt;KeyValues&gt;&lt;FieldID&gt;15511319&lt;/FieldID&gt;&lt;FieldValue&gt;   5062029&lt;/FieldValue&gt;&lt;/KeyValues&gt;|GetNextFilledWebForm|Last ned</AL3>
+            </Liste>
+            <Liste>
+                <F1>Forbundsstyredokumenter 9. mai 2014</F1>
+                <F2>30.04.2014</F2>
+                <AL3>&lt;UniqueNo&gt;   5063085&lt;/UniqueNo&gt;&lt;Name&gt;Forbundsstyredokumenter 9. mai 2014&lt;/Name&gt;&lt;KeyValues&gt;&lt;FieldID&gt;15511319&lt;/FieldID&gt;&lt;FieldValue&gt;   5063085&lt;/FieldValue&gt;&lt;/KeyValues&gt;|GetNextFilledWebForm|Last ned</AL3>
+            </Liste>
+            <Liste>
+                <F1>Sak 35/14 Retningslinjer for påskjønnelse tillitsvalgte, oppfølging fra LM 2013</F1>
+                <F2>25.04.2014</F2>
+                <AL3>&lt;UniqueNo&gt;   5063103&lt;/UniqueNo&gt;&lt;Name&gt;Sak 35/14 Retningslinjer for påskjønnelse tillitsvalgte, oppfølging fra LM 2013&lt;/Name&gt;&lt;KeyValues&gt;&lt;FieldID&gt;15511319&lt;/FieldID&gt;&lt;FieldValue&gt;   5063103&lt;/FieldValue&gt;&lt;/KeyValues&gt;|GetNextFilledWebForm|Last ned</AL3>
+            </Liste>
+            <Liste>
+                <F1>Medlemmer TGSS.xlsx</F1>
+                <F2>16.05.2014</F2>
+                <AL3>&lt;UniqueNo&gt;   5063542&lt;/UniqueNo&gt;&lt;Name&gt;Medlemmer TGSS.xlsx&lt;/Name&gt;&lt;KeyValues&gt;&lt;FieldID&gt;15511319&lt;/FieldID&gt;&lt;FieldValue&gt;   5063542&lt;/FieldValue&gt;&lt;/KeyValues&gt;|GetNextFilledWebForm|Last ned</AL3>
+            </Liste>
+            <Liste>
+                <F1>Medlemmer hele ISS.xlsx</F1>
+                <F2>11.06.2014</F2>
+                <AL3>&lt;UniqueNo&gt;   5063934&lt;/UniqueNo&gt;&lt;Name&gt;Medlemmer hele ISS.xlsx&lt;/Name&gt;&lt;KeyValues&gt;&lt;FieldID&gt;15511319&lt;/FieldID&gt;&lt;FieldValue&gt;   5063934&lt;/FieldValue&gt;&lt;/KeyValues&gt;|GetNextFilledWebForm|Last ned</AL3>
+            </Liste>
+            <Liste>
+                <F1>Sak 59/14 Permitteringsstøtte ifm uforskyldt nedbemanning eller grunnet ordresvikt</F1>
+                <F2>30.04.2014</F2>
+                <AL3>&lt;UniqueNo&gt;   5064124&lt;/UniqueNo&gt;&lt;Name&gt;Sak 59/14 Permitteringsstøtte ifm uforskyldt nedbemanning eller grunnet ordresvikt&lt;/Name&gt;&lt;KeyValues&gt;&lt;FieldID&gt;15511319&lt;/FieldID&gt;&lt;FieldValue&gt;   5064124&lt;/FieldValue&gt;&lt;/KeyValues&gt;|GetNextFilledWebForm|Last ned</AL3>
+            </Liste>
+            <Liste>
+                <F1>Forbundsstyredokumenter 16. oktober 2014 - oppdatert 10/10-14</F1>
+                <F2>10.10.2014</F2>
+                <AL3>&lt;UniqueNo&gt;   5066970&lt;/UniqueNo&gt;&lt;Name&gt;Forbundsstyredokumenter 16. oktober 2014 - oppdatert 10/10-14&lt;/Name&gt;&lt;KeyValues&gt;&lt;FieldID&gt;15511319&lt;/FieldID&gt;&lt;FieldValue&gt;   5066970&lt;/FieldValue&gt;&lt;/KeyValues&gt;|GetNextFilledWebForm|Last ned</AL3>
+            </Liste>
+            <Liste>
+                <F1>Sak 72/15 Oppstart budsjettarbeid 2016</F1>
+                <F2>11.05.2015</F2>
+                <AL3>&lt;UniqueNo&gt;   5074046&lt;/UniqueNo&gt;&lt;Name&gt;Sak 72/15 Oppstart budsjettarbeid 2016&lt;/Name&gt;&lt;KeyValues&gt;&lt;FieldID&gt;15511319&lt;/FieldID&gt;&lt;FieldValue&gt;   5074046&lt;/FieldValue&gt;&lt;/KeyValues&gt;|GetNextFilledWebForm|Last ned</AL3>
+            </Liste>
+            <Liste>
+                <F1>1 - Budsjett 2014.xlsx</F1>
+                <F2>11.08.2015</F2>
+                <AL3>&lt;UniqueNo&gt;   5074823&lt;/UniqueNo&gt;&lt;Name&gt;1 - Budsjett 2014.xlsx&lt;/Name&gt;&lt;KeyValues&gt;&lt;FieldID&gt;15511319&lt;/FieldID&gt;&lt;FieldValue&gt;   5074823&lt;/FieldValue&gt;&lt;/KeyValues&gt;|GetNextFilledWebForm|Last ned</AL3>
+            </Liste>
+            <Liste>
+                <F1>Sak 33/15 Fusjonsutredningen Negotia Parat</F1>
+                <F2>03.03.2015</F2>
+                <AL3>&lt;UniqueNo&gt;   5075081&lt;/UniqueNo&gt;&lt;Name&gt;Sak 33/15 Fusjonsutredningen Negotia Parat&lt;/Name&gt;&lt;KeyValues&gt;&lt;FieldID&gt;15511319&lt;/FieldID&gt;&lt;FieldValue&gt;   5075081&lt;/FieldValue&gt;&lt;/KeyValues&gt;|GetNextFilledWebForm|Last ned</AL3>
+            </Liste>
+            <Liste>
+                <F1>Dørskilt nye.docx</F1>
+                <F2>19.08.2015</F2>
+                <AL3>&lt;UniqueNo&gt;   5075082&lt;/UniqueNo&gt;&lt;Name&gt;Dørskilt nye.docx&lt;/Name&gt;&lt;KeyValues&gt;&lt;FieldID&gt;15511319&lt;/FieldID&gt;&lt;FieldValue&gt;   5075082&lt;/FieldValue&gt;&lt;/KeyValues&gt;|GetNextFilledWebForm|Last ned</AL3>
+            </Liste>
+            <Liste>
+                <F1>2015_04_NegGjen.txt</F1>
+                <F2>15.09.2015</F2>
+                <AL3>&lt;UniqueNo&gt;   5076044&lt;/UniqueNo&gt;&lt;Name&gt;2015_04_NegGjen.txt&lt;/Name&gt;&lt;KeyValues&gt;&lt;FieldID&gt;15511319&lt;/FieldID&gt;&lt;FieldValue&gt;   5076044&lt;/FieldValue&gt;&lt;/KeyValues&gt;|GetNextFilledWebForm|Last ned</AL3>
+            </Liste>
+            <Liste>
+                <F1>Unge per avdeling og kjønn 2010.xlsx</F1>
+                <F2>01.12.2015</F2>
+                <AL3>&lt;UniqueNo&gt;   5078774&lt;/UniqueNo&gt;&lt;Name&gt;Unge per avdeling og kjønn 2010.xlsx&lt;/Name&gt;&lt;KeyValues&gt;&lt;FieldID&gt;15511319&lt;/FieldID&gt;&lt;FieldValue&gt;   5078774&lt;/FieldValue&gt;&lt;/KeyValues&gt;|GetNextFilledWebForm|Last ned</AL3>
+            </Liste>
+        </GetFilledWEBForm>
+    </Result>
+</CallVismaResponse>
