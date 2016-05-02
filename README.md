@@ -55,7 +55,7 @@ Dette repoet er primært en [issue tracker](https://github.com/ItemConsulting/ne
 
 ```javascript
 {
-  "id":9,
+  "id": "9",
   "position":"Konsern/hovedtillitsvalgt",
   "organization":"Fubar AS"
 }
