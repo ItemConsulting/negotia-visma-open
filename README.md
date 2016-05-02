@@ -46,7 +46,7 @@ Dette repoet er primært en [issue tracker](https://github.com/ItemConsulting/ne
   "phoneMobile": "12341234",
   "phonePrivate": "",
   "email": "post@slottet.no",
-  "birthday": "1937-02-21T13:02:00Z",
+  "birthday": "1937-02-21T13:02:00Z", // ISO 8601
   "memberSince": "1995-05-30T12:03:00Z",
 }
 ```
