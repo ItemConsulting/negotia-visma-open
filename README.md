@@ -2,7 +2,12 @@
 
 Dette repoet er primært en [issue tracker](https://github.com/ItemConsulting/negotia-visma-open/issues), for å kommunisere rundt Negotia/Visma integrasjonen.
 
-## Returns the member representation of a user
+### Authentication
+Authentication: BASIC – Uses an admin user/pass for all calls
+
+## REST Endpoints
+
+### Returns the member representation of a user
 
 `GET /api/members/{member-id}`
 
@@ -11,7 +16,7 @@ Dette repoet er primært en [issue tracker](https://github.com/ItemConsulting/ne
 | 200              | `Member repesentation` |
 
 
-## Return a list of groups the member is attached to
+### Return a list of groups the member is attached to
 
 `GET /api/members/{member-id}/groups`
 
@@ -19,7 +24,7 @@ Dette repoet er primært en [issue tracker](https://github.com/ItemConsulting/ne
 |------------------|-----------------------------|
 | 200              | Array `Group repesentation` |
 
-## Return a list of members of a group
+### Return a list of members of a group
 
 `GET /api/members/{member-id}/groups/{group-id}`
 
@@ -27,7 +32,9 @@ Dette repoet er primært en [issue tracker](https://github.com/ItemConsulting/ne
 |------------------|------------------------------|
 | 200              | Array `Member repesentation` |
 
-## Member repesentation
+## Return objects
+
+### Member repesentation
 
 ```javascript
 {
@@ -51,7 +58,7 @@ Dette repoet er primært en [issue tracker](https://github.com/ItemConsulting/ne
 }
 ```
 
-## Group repesentation
+### Group repesentation
 
 ```javascript
 {
