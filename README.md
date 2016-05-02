@@ -31,7 +31,7 @@ Dette repoet er primært en [issue tracker](https://github.com/ItemConsulting/ne
 
 ```javascript
 {
-  "id": 201234,
+  "id": "201234",
   "firstName": "Harald",
   "lastName": "Rex",
   "address1": "",
@@ -45,7 +45,7 @@ Dette repoet er primært en [issue tracker](https://github.com/ItemConsulting/ne
   "phoneWork": "",
   "phoneMobile": "12341234",
   "phonePrivate": "",
-  "email": "rex@slottet.no",
+  "email": "post@slottet.no",
   "birthday": "1937-02-21T13:02:00Z",
   "memberSince": "1995-05-30T12:03:00Z",
 }
