@@ -62,7 +62,7 @@ Authentication: BASIC – Uses an admin user/pass for all calls
 
 ```javascript
 {
-  "id": "9",
+  "id": "9@35",
   "position":"Konsern/hovedtillitsvalgt",
   "organization":"Fubar AS"
 }
