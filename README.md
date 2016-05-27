@@ -7,7 +7,7 @@ Authentication: BASIC – Uses an admin user/pass for all calls
 
 ## REST Endpoints
 
-### Returns the member representation of a user
+### 1. Returns the member representation of a user
 
 `GET /api/members/{member-id}`
 
@@ -16,7 +16,7 @@ Authentication: BASIC – Uses an admin user/pass for all calls
 | 200              | `Member repesentation` |
 
 
-### Return a list of groups the member is attached to
+### 2. Return a list of groups the member is attached to
 
 `GET /api/members/{member-id}/groups`
 
@@ -24,7 +24,7 @@ Authentication: BASIC – Uses an admin user/pass for all calls
 |------------------|-----------------------------|
 | 200              | Array `Group repesentation` |
 
-### Return a list of members of a group
+### 3. Return a list of members of a group
 
 `GET /api/members/{member-id}/groups/{group-id}`
 
