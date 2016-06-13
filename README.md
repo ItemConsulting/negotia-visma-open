@@ -56,6 +56,8 @@ Add a `memberUntil`-field to the `Member representation` json-object.
 
 Should return with the `Content-Type` header set. It should have the mime type (e.g. `application/pdf` or `application/vnd.ms-excel`), or `application/octet-stream` if unknown mime type.
 
+According to [Stackoverflow](http://stackoverflow.com/questions/10725959/file-transfer-over-http), the body of the file is binary, not base64.
+
 | Http status code | Body                               |
 |------------------|------------------------------------|
 | 200              | Binary representation of the file  |
