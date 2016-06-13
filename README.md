@@ -36,7 +36,7 @@ Authentication: BASIC – Uses an admin user/pass for all calls
 
 Add a `memberUntil`-field to the `Member representation` json-object.
 
-`GET /api/members/{member-id}/groups/{group-id}/status/@inactive`
+`GET /api/members/{member-id}/groups/{group-id}/status/@left-recently`
 
 | Http status code | Body                         |
 |------------------|------------------------------|
