@@ -56,8 +56,6 @@ Add a `memberUntil`-field to the `Member representation` json-object.
 
 Should return with the `Content-Type` header set. It should have the mime type (e.g. `application/pdf` or `application/vnd.ms-excel`), or `application/octet-stream` if unknown mime type.
 
-> Note that you might want to use a 3rd-party library that can determine the mime-type based on the file headers.
-
 | Http status code | Body                               |
 |------------------|------------------------------------|
 | 200              | Binary representation of the file  |
