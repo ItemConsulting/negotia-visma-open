@@ -107,7 +107,6 @@ According to [Stackoverflow](http://stackoverflow.com/questions/10725959/file-tr
 {
   "id": "5075082",
   "name": "Dørskilt nye.docx",
-  "created": "2015-08-19T00:00:00Z",
-  "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  "created": "2015-08-19T00:00:00Z"
 }
 ```
