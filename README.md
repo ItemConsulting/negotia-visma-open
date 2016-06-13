@@ -32,7 +32,9 @@ Authentication: BASIC – Uses an admin user/pass for all calls
 |------------------|------------------------------|
 | 200              | Array `Member repesentation` |
 
-### 4. Return a list of group members that has left Negotia
+### 4. Return a list of members that has left a group
+
+Add `memberUntil` field to the `Member representation` json-object.
 
 `GET /api/members/{member-id}/groups/{group-id}/status/@inactive`
 
