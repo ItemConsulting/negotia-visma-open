@@ -85,6 +85,7 @@ Should return with the `Content-Type` header set. It should have the mime type (
   "email": "post@slottet.no",
   "birthday": "1937-02-21T13:02:00Z", // ISO 8601
   "memberSince": "1995-05-30T12:03:00Z",
+  "memberUntil" : "2016-06-14T11:15:00Z"
 }
 ```
 
