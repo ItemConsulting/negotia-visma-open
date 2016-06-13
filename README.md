@@ -32,6 +32,36 @@ Authentication: BASIC – Uses an admin user/pass for all calls
 |------------------|------------------------------|
 | 200              | Array `Member repesentation` |
 
+### 4. Return a list of group members that has left Negotia
+
+`GET /api/members/{member-id}/groups/{group-id}/status/@inactive`
+
+| Http status code | Body                         |
+|------------------|------------------------------|
+| 200              | Array `Member repesentation` |
+
+### 5. Return a list of files
+
+`GET /api/members/{member-id}/files`
+
+| Http status code | Body                         |
+|------------------|------------------------------|
+| 200              | Array `File repesentation`   |
+
+### 6. Return file as binary
+
+`GET /api/members/{member-id}/files/{file-id}`
+
+Should return with the `Content-Type` header set. It should have the mime type (e.g. `application/pdf` or `application/vnd.ms-excel`), or `application/octet-stream` if unknown mime type.
+
+> Note that you might want to use a 3rd-party library that can determine the mime-type based on the file headers.
+
+| Http status code | Body                               |
+|------------------|------------------------------------|
+| 200              | Binary representation of the file  |
+| 403 (forbidden)  | *empty*                            |
+
+
 ## Return objects
 
 ### Member repesentation
@@ -68,3 +98,12 @@ Authentication: BASIC – Uses an admin user/pass for all calls
 }
 ```
 
+### File representation
+
+```javascript
+{
+  "id": "5075082",
+  "name": "Dørskilt nye.docx",
+  "created": "2015-08-19T00:00:00Z"
+}
+```
