@@ -87,7 +87,18 @@ According to [Stackoverflow](http://stackoverflow.com/questions/10725959/file-tr
   "email": "post@slottet.no",
   "birthday": "1937-02-21T13:02:00Z", // ISO 8601
   "memberSince": "1995-05-30T12:03:00Z",
-  "memberUntil" : "2016-06-14T11:15:00Z"
+  "memberUntil" : "2016-06-14T11:15:00Z",
+  // new fields 2016-06-22
+  "workplace": "Revisorbrødrene AS", // Arbeidsted
+  "representativeCompanyId": 301, // TV arbeidsgiver
+  "representativeCompanyTitle": "Tillitsvalgt",
+  "representativeWorkplaceId": 302, // TV arbeidssted
+  "representativeWorkplaceTitle": "Vara Tillitsvalgt",
+  "lastLoginDate": "2016-06-20T12:04:00Z",
+  "totalLogins": 204,
+  "department": "", // Lokalavdeling
+  "memberStatus": "", // Medlemstatus
+  "paymentMethod": "Lønnstrekk"
 }
 ```
 
