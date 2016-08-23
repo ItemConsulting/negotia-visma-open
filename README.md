@@ -32,7 +32,7 @@ Authentication: BASIC – Uses an admin user/pass for all calls
 |------------------|------------------------------|
 | 200              | Array `Member repesentation` |
 
-### 4. Return a list of members that has left a group
+### 4. ~~Return a list of members that has left a group~~
 
 Add a `memberUntil`-field to the `Member representation` json-object.
 
@@ -42,7 +42,7 @@ Add a `memberUntil`-field to the `Member representation` json-object.
 |------------------|------------------------------|
 | 200              | Array `Member repesentation` |
 
-### 5. Return a list of files
+### 5. ~~Return a list of files~~
 
 `GET /api/members/{member-id}/files`
 
@@ -50,7 +50,7 @@ Add a `memberUntil`-field to the `Member representation` json-object.
 |------------------|------------------------------|
 | 200              | Array `File repesentation`   |
 
-### 6. Return file as binary
+### 6. ~~Return file as binary~~
 
 `GET /api/members/{member-id}/files/{file-id}`
 
@@ -63,6 +63,13 @@ According to [Stackoverflow](http://stackoverflow.com/questions/10725959/file-tr
 | 200              | Binary representation of the file  |
 | 403 (forbidden)  | *empty*                            |
 
+### 7. Return a list of scolorship application status'
+
+`GET /api/members/{member-id}/scholarship`
+
+| Http status code | Body                                |
+|------------------|-------------------------------------|
+| 200              | Array `Scholarship repesentation`   |
 
 ## Return objects
 
@@ -113,6 +120,16 @@ According to [Stackoverflow](http://stackoverflow.com/questions/10725959/file-tr
 ```
 
 ### File representation
+
+```javascript
+{
+  "id": "5075082",
+  "name": "Dørskilt nye.docx",
+  "created": "2015-08-19T00:00:00Z"
+}
+```
+
+### Scholarship-application representation
 
 ```javascript
 {
